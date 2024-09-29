@@ -1,0 +1,10 @@
+[warning]	2024-09-28 01:31:06.128416[Thread 0x000037c4]:Failed to load to hints.cereal. File does not exists. C:\Users\Dave\AppData\Roaming\OrcaSlicer\user\hints.cereal
+[error]	2024-09-28 01:31:09.684211[Thread 0x000037c4]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+[error]	2024-09-28 01:31:15.167043[Thread 0x000037c4]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+[error]	2024-09-28 01:31:19.691945[Thread 0x000037c4]:Slic3r::GUI::GuideFrame::LoadProfileFamily: parse C:\Program Files\OrcaSlicer\resources\profiles\Creality.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-09-28 01:31:19.736926[Thread 0x000037c4]:Slic3r::GUI::GuideFrame::LoadProfileFamily: parse C:\Program Files\OrcaSlicer\resources\profiles\Dremel.json got exception: [json.exception.type_error.304] cannot use at() with string
+[error]	2024-09-28 01:31:24.174814[Thread 0x000037c4]:Slic3r::GUI::GuideFrame::LoadProfileFamily: parse C:\Program Files\OrcaSlicer\resources\profiles\Kingroon.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-09-28 01:35:31.973668[Thread 0x000037c4]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2024-09-28 01:35:32.023338[Thread 0x000037c4]:Slic3r::NetworkAgent::get_version, get_version not supported,return 00.00.00.00!
+[warning]	2024-09-28 01:38:13.585863[Thread 0x000037c4]:1:38:13 AM: Warning: Error running JavaScript: "TypeError: Cannot read properties of null (reading 'setAttribute')"
+[error]	2024-09-28 01:38:28.003638[Thread 0x000037c4]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles

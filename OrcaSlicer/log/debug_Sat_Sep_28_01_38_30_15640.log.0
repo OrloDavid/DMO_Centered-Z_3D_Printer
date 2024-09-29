@@ -1,0 +1,7 @@
+[error]	2024-09-28 01:38:32.953346[Thread 0x00004f54]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+[error]	2024-09-28 01:38:37.975540[Thread 0x00004f54]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles
+[warning]	2024-09-28 01:38:38.082502[Thread 0x00004f54]:Slic3r::NetworkAgent::get_version, get_version not supported,return 00.00.00.00!
+[error]	2024-09-28 01:42:09.867476[Thread 0x00004f54]:Slic3r::GUI::GuideFrame::LoadProfileFamily: parse C:\Program Files\OrcaSlicer\resources\profiles\Creality.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-09-28 01:42:09.868475[Thread 0x00004f54]:Slic3r::GUI::GuideFrame::LoadProfileFamily: parse C:\Program Files\OrcaSlicer\resources\profiles\Dremel.json got exception: [json.exception.type_error.304] cannot use at() with string
+[error]	2024-09-28 01:42:09.938769[Thread 0x00004f54]:Slic3r::GUI::GuideFrame::LoadProfileFamily: parse C:\Program Files\OrcaSlicer\resources\profiles\Kingroon.json got exception: [json.exception.type_error.302] type must be string, but is null
+[error]	2024-09-28 20:22:31.691366[Thread 0x00004f54]:Slic3r::GUI::PartPlate::calc_exclude_triangles:Unable to create exclude triangles

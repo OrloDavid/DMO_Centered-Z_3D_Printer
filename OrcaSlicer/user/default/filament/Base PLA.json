@@ -1,0 +1,37 @@
+{
+    "close_fan_the_first_x_layers": [
+        "3"
+    ],
+    "enable_pressure_advance": [
+        "1"
+    ],
+    "filament_settings_id": [
+        "Base PLA"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nBED_MESH_PROFILE LOAD=default_63"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "4"
+    ],
+    "hot_plate_temp": [
+        "63"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "63"
+    ],
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Base PLA",
+    "nozzle_temperature": [
+        "200"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "210"
+    ],
+    "overhang_fan_threshold": [
+        "0%"
+    ],
+    "version": "2.1.1.0"
+}

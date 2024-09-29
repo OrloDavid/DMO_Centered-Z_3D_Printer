@@ -1,0 +1,45 @@
+{
+    "extruder_clearance_height_to_lid": "500",
+    "extruder_clearance_height_to_rod": "40",
+    "fan_kickstart": "2",
+    "fan_speedup_overhangs": "0",
+    "fan_speedup_time": "1",
+    "from": "User",
+    "inherits": "MyKlipper 0.4 nozzle",
+    "is_custom_defined": "0",
+    "machine_end_gcode": "G1 E-.2 F500 ;Retract a little\nG1 Z0.28 ;Lift nozzle a bit\nG1 X0 F500 ;Move X\nPRINT_END",
+    "machine_max_speed_e": [
+        "30",
+        "25"
+    ],
+    "machine_max_speed_x": [
+        "300",
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "250",
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "80",
+        "12"
+    ],
+    "machine_start_gcode": "M190 S[bed_temperature_initial_layer_single]\nM109 S[nozzle_temperature_initial_layer]\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\nG28 ;Move X/Y/Z to min endstops\nG1 Z0.28 ;Lift nozzle a bit\nG92 E0 ;Specify current extruder position as zero\nG1 Y3 F1800 ;Move Y to purge point\nG1 X60 E25 F500 ;Extrude 25mm of filament in a 5cm line\nG92 E0 ;Zero the extruded length again\nG1 E-.2 F500 ;Retract a little\nG1 X70 F4000 ;Quickly wipe away from the filament line\nM117",
+    "name": "Kobra",
+    "print_host": "192.168.125.57",
+    "printable_area": [
+        "0x0",
+        "230x0",
+        "230x230",
+        "0x230"
+    ],
+    "printable_height": "450",
+    "printer_settings_id": "Kobra",
+    "retraction_length": [
+        "0.08"
+    ],
+    "version": "2.1.1.0",
+    "z_hop": [
+        "0"
+    ]
+}
