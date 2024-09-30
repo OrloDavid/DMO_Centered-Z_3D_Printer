@@ -24,7 +24,7 @@
         "iot_environment": "3",
         "keyboard_supported": "none/alt/control/shift",
         "language": "en_US",
-        "last_backup_path": "C:\\Users\\Dave\\AppData\\Local\\Temp/orcaslicer_model/Sat_Sep_28/20_52_19#8176#34",
+        "last_backup_path": "C:\\Users\\Dave\\AppData\\Local\\Temp/orcaslicer_model/Sun_Sep_29/19_52_26#8176#1165",
         "log_severity_level": "warning",
         "max_recent_count": "18",
         "max_send": "3",
@@ -81,6 +81,24 @@
         "zoom_to_mouse": true,
         "zoom_view": "none/mouse left"
     },
+    "custom_color_list": {
+        "10": "0,0,0,255",
+        "11": "16,16,16,255",
+        "12": "32,32,32,255",
+        "13": "48,48,48,255",
+        "14": "64,64,64,255",
+        "15": "80,80,80,255",
+        "16": "96,96,96,255",
+        "17": "112,112,112,255",
+        "18": "128,128,128,255",
+        "19": "144,144,144,255",
+        "20": "160,160,160,255",
+        "21": "176,176,176,255",
+        "22": "192,192,192,255",
+        "23": "208,208,208,255",
+        "24": "224,224,224,255",
+        "25": "240,240,240,255"
+    },
     "filaments": [
         "My Generic ABS",
         "My Generic ASA",
@@ -125,12 +143,12 @@
         },
         {
             "curr_bed_type": "3",
-            "filament": "Base PLA",
+            "filament": "PLA+ Glow HP3DF",
             "filament_colors": "#26A69A",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "Kobra",
-            "process": "Default PLA Profile"
+            "process": "PLA+ Glow Profile"
         },
         {
             "curr_bed_type": "3",
@@ -152,7 +170,7 @@
         "timelapse": "1"
     },
     "recent": {
-        "last_opened_folder": "C:\\Users\\Dave\\Downloads\\DL\\~3D-Stuff\\~cute-mini-octopus-model_files\\Spiral",
+        "last_opened_folder": "C:\\Program Files\\OrcaSlicer\\resources\\calib\\filament_flow",
         "printhost_path": "",
         "settings_folder": "C:\\Users\\Dave\\Downloads"
     },
@@ -160,4 +178,4 @@
         "01": "C:\\Users\\Dave\\Downloads\\DL\\~3D-Stuff\\~cute-mini-octopus-model_files\\Spiral\\octopus_spiral_sup_v6.stl"
     }
 }
-# MD5 checksum 562AF17C213C55B96E904A24F5E29A5E
+# MD5 checksum DBADD19925523E4EA0192D54DF429FD6

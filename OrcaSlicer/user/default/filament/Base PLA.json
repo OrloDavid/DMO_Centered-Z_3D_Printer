@@ -25,10 +25,10 @@
     "is_custom_defined": "0",
     "name": "Base PLA",
     "nozzle_temperature": [
-        "200"
+        "230"
     ],
     "nozzle_temperature_initial_layer": [
-        "210"
+        "230"
     ],
     "overhang_fan_threshold": [
         "0%"
