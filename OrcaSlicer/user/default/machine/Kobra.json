@@ -1,4 +1,5 @@
 {
+    "before_layer_change_gcode": "BEFORE_LAYER_CHANGE\n;[layer_z]\n\n",
     "deretraction_speed": [
         "60"
     ],
@@ -10,7 +11,28 @@
     "from": "User",
     "inherits": "MyKlipper 0.4 nozzle",
     "is_custom_defined": "0",
-    "machine_end_gcode": "PRINT_END\nG1 E-.2 F500 ;Retract\nG1 X0 F1500 ;Move X",
+    "layer_change_gcode": "AFTER_LAYER_CHANGE\n;[layer_z]",
+    "machine_end_gcode": "PRINT_FINISHED",
+    "machine_max_acceleration_e": [
+        "3000",
+        "5000"
+    ],
+    "machine_max_acceleration_extruding": [
+        "10000",
+        "20000"
+    ],
+    "machine_max_acceleration_retracting": [
+        "3000",
+        "5000"
+    ],
+    "machine_max_acceleration_x": [
+        "10000",
+        "20000"
+    ],
+    "machine_max_acceleration_y": [
+        "10000",
+        "20000"
+    ],
     "machine_max_speed_e": [
         "30",
         "25"
@@ -27,7 +49,7 @@
         "80",
         "12"
     ],
-    "machine_start_gcode": "M190 S[bed_temperature_initial_layer_single]\nM109 S[nozzle_temperature_initial_layer]\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\nG28 ;Move X/Y/Z to min endstops\nG1 Z0.28 ;Lift nozzle a bit\nG92 E0 ;Specify current extruder position as zero\nG1 Y3 F1800 ;Move Y to purge point\nG1 X60 E25 F500 ;Extrude 25mm of filament in a 5cm line\nG92 E0 ;Zero the extruded length again\nG1 X70 E-.01 F4000 ;Quickly wipe away from the filament line, Retract a little\nM117",
+    "machine_start_gcode": "M190 S[bed_temperature_initial_layer_single]\nM109 S[nozzle_temperature_initial_layer]\nPRINT_START EXTRUDER=[nozzle_temperature_initial_layer] BED=[bed_temperature_initial_layer_single]\nPRINT_BEGIN\n",
     "name": "Kobra",
     "print_host": "192.168.125.57",
     "printable_area": [

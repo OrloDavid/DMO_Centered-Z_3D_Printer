@@ -144,7 +144,7 @@
         {
             "curr_bed_type": "3",
             "filament": "PLA+ Glow HP3DF",
-            "filament_colors": "#26A69A",
+            "filament_colors": "#9DFFFF",
             "flush_volumes_matrix": "0.000000",
             "flush_volumes_vector": "140.000000|140.000000",
             "machine": "Kobra",
@@ -170,7 +170,7 @@
         "timelapse": "1"
     },
     "recent": {
-        "last_opened_folder": "C:\\Program Files\\OrcaSlicer\\resources\\calib\\filament_flow",
+        "last_opened_folder": "C:\\Users\\Dave\\Downloads\\DL\\~3D-Stuff\\~Dragons and Lizards\\ARTICULATED ice dragon (fixed) - 5390184\\files",
         "printhost_path": "",
         "settings_folder": "C:\\Users\\Dave\\Downloads"
     },
@@ -178,4 +178,4 @@
         "01": "C:\\Users\\Dave\\Downloads\\DL\\~3D-Stuff\\~cute-mini-octopus-model_files\\Spiral\\octopus_spiral_sup_v6.stl"
     }
 }
-# MD5 checksum DBADD19925523E4EA0192D54DF429FD6
+# MD5 checksum 50946FC46F135BC3FCF0F9EF4E63A5AC

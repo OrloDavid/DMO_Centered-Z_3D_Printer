@@ -1,0 +1,25 @@
+#[homing_override]
+#gcode:
+#  {% if not 'Z' in params and not 'Y' in params and 'X' in params %}
+#  G1 X5
+#  G4 P1500
+#  G28 X
+#  {% elif not 'Z' in params and not 'X' in params and 'Y' in params %}
+#  G1 Y5
+#  G4 P1500
+#  G28 Y
+#  {% elif not 'Z' in params and 'X' in params and 'Y' in params %}
+#  G1 X5 Y5
+#  G4 P1500
+#  G28 X Y
+#  {% elif 'Z' in params and not 'X' in params and not 'Y' in params %}
+#  G1 X115 Y115
+#  G28 Z
+#  {% else %}
+#  G1 X5 Y5
+#  G4 P1500
+#  G28 X Y
+#  G1 X115 Y115
+#  G28 Z
+#  {% endif %}
+#axes: xyz

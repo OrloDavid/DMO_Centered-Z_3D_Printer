@@ -18,7 +18,7 @@
         "PLA+ Glow HP3DF"
     ],
     "filament_start_gcode": [
-        "; filament start gcode\nBED_MESH_PROFILE LOAD=default_67"
+        "; filament start gcode\nBED_MESH_PROFILE LOAD=default_60"
     ],
     "from": "User",
     "full_fan_speed_layer": [
